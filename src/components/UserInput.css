@@ -1,0 +1,9 @@
+.main-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+.generateValue-control {
+  text-align: center;
+}
