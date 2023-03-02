@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./UserInput.css";
 function UserInput() {
-  const [generateValue, setGenerateValue] = useState("0");
+  const [generateValue, setGenerateValue] = useState(0);
 
   const valueGeneraterHandler = () => {
     const number = Math.floor(Math.random() * 100) + 1;
